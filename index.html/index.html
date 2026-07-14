@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Three Years Completed ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Background Animation -->
+    <div class="background">
+
+        <div class="stars"></div>
+
+        <div class="hearts" id="hearts"></div>
+
+        <div class="roses" id="roses"></div>
+
+        <div class="blur blur1"></div>
+        <div class="blur blur2"></div>
+        <div class="blur blur3"></div>
+
+    </div>
+
+    <!-- Main Container -->
+
+    <section class="container">
+
+        <div class="glass-card" id="card">
+
+            <div class="icon">
+
+                ❤️
+
+            </div>
+
+            <h1>
+
+                A Little Question Before We Begin
+
+            </h1>
+
+            <p>
+
+                Do you know when we met at first?
+
+            </p>
+
+            <input
+                id="date"
+                type="text"
+                placeholder="Enter the full date (YYYY/MM/DD)"
+                autocomplete="off">
+
+            <button onclick="checkAnswer()">
+
+                Continue
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+            <div id="message"></div>
+
+        </div>
+
+    </section>
+
+    <!-- Success Popup -->
+
+    <div class="success-popup" id="success">
+
+        <div class="popup">
+
+            <div class="big-heart">
+
+                ❤️
+
+            </div>
+
+            <h2>
+
+                Correct!
+
+            </h2>
+
+            <p>
+
+                You really remembered our first meeting.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- Wrong Popup -->
+
+    <div class="wrong-popup" id="wrong">
+
+        <div class="popup">
+
+            <div class="sad">
+
+                💔
+
+            </div>
+
+            <h2>
+
+                Oops...
+
+            </h2>
+
+            <p>
+
+                Sorry! That's not correct.
+
+                Try Again ❤️
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- Floating Hearts -->
+    <div id="floatingHearts"></div>
+
+    <!-- Falling Roses -->
+    <div id="fallingRoses"></div>
+
+    <!-- Sparkles -->
+    <div id="sparkles"></div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
